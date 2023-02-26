@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url("https://e0.pxfuel.com/wallpapers/335/945/desktop-wallpaper-dark-rain-forest-road-live-hut-live-for-windows-macos-dark-purple-forest.jpg");
+    object-fit: cover;
+    background-position: center;
+    filter: blur(-20);
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    opacity: 40%;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color:#1A120B;
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 25px;
+    height:500px;
+    width: 450px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-image: url("https://thumbs.dreamstime.com/z/beautiful-sky-sun-set-thailand-s-sea-37117864.jpg");
+    object-fit: cover;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin: 20px 0;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: #545352;
+}
+
+button{
+    padding: 8px;
+    font-size: 22px;
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    background-color: #3E64FF;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.radio-div{
+    display: flex;
+    gap: 40px;
+}
+
+.radio-div div{
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    margin-bottom: -20px;
+}
